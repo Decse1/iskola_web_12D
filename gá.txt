@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Egy modern iskola oldalának elkészítése izgalmas feladat! Íme egy lépésről lépésre útmutató, amely segít a tervezésben és a megvalósításban:
 
 ### 1. Célok meghatározása
@@ -46,3 +47,4 @@ Egy modern iskola oldalának elkészítése izgalmas feladat! Íme egy lépésr�
 - **Visszajelzések gyűjtése:** Kérd ki a diákok és szülők véleményét az oldalról, és használd azokat a fejlesztéshez.
 
 Ezek a lépések segítenek egy modern és funkcionális iskola oldal létrehozásában. Ha bármilyen kérdésed van, szívesen segítek!
+=======
