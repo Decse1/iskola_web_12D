@@ -1,50 +1,108 @@
-<<<<<<< HEAD
-Egy modern iskola oldalának elkészítése izgalmas feladat! Íme egy lépésről lépésre útmutató, amely segít a tervezésben és a megvalósításban:
+https://codepen.io/justintan/details/VpYgor
 
-### 1. Célok meghatározása
-- **Mi a célja az oldalnak?** (pl. információ megosztás, diákok és szülők tájékoztatása, események hirdetése)
-- **Kik a célcsoport?** (pl. diákok, szülők, tanárok)
+https://codepen.io/Navedkhan012/pen/wWgRJb
 
-### 2. Tartalomterv készítése
-- **Főbb menüpontok:**
-  - Iskoláról
-  - Hírek és események
-  - Tanulmányi programok
-  - Kapcsolat
-  - Diákoknak / Szülőknek szekció
+Bootstrap Responsive Tabs (No more stacking)
+https://codepen.io/Ayn_/pen/xdVBVg
 
-### 3. Dizájn megtervezése
-- **Modern megjelenés:** Válassz letisztult, vonzó színpalettát és tipográfiát.
-- **Responsive dizájn:** Az oldalnak mobilbarátnak kell lennie.
-- **Képek és grafikai elemek:** Használj jó minőségű képeket az iskoláról, diákokról és eseményekről.
+jQuery simple lightbox
+https://codepen.io/kozmaflorin/pen/aNWQzW
 
-### 4. Technológiai háttér
-- **Weboldal platform kiválasztása:** WordPress, Wix, Squarespace vagy saját fejlesztés.
-- **Domain név és tárhely:** Regisztrálj egy megfelelő domain nevet és válassz tárhelyszolgáltatót.
+Landing Page
+https://codepen.io/co/pen/nJZOwO
 
-### 5. Oldalfejlesztés
-- **HTML/CSS/JavaScript:** Ha saját fejlesztést tervezel, kezdd a kódolást.
-- **CMS használata:** Ha WordPress-t használsz, válassz sablont, és testreszabhatod.
+Card Mouse Hover Effect
+https://codepen.io/yudizsolutions/pen/wvZEeNE
 
-### 6. Tartalom létrehozása
-- **Szövegek írása:** Legyenek világos és informatív szövegek az egyes menüpontokhoz.
-- **Képek feltöltése:** Gondoskodj a megfelelő méretű és minőségű képekről.
+CSS only navigation with rotating text hover effect
+https://codepen.io/cbolson/pen/OJGKdNJ
 
-### 7. SEO és optimalizálás
-- **Keresőoptimalizálás:** Használj kulcsszavakat, meta leírásokat és optimalizáld a képeket.
-- **Sebességoptimalizálás:** Ellenőrizd az oldal sebességét, és javítsd, ha szükséges.
+timeline
+https://codepen.io/knyttneve/pen/bgvmma
 
-### 8. Tesztelés
-- **Funkcionalitás tesztelése:** Ellenőrizd, hogy minden link és funkció jól működik.
-- **Böngészők és eszközök tesztelése:** Győződj meg róla, hogy az oldal minden eszközön és böngészőben jól néz ki.
+Responsive movie card
+https://codepen.io/ryanparag/details/oWrLPr
 
-### 9. Indítás
-- **Oldal közzététele:** Amikor minden készen áll, publikáld az oldalt.
-- **Promóció:** Népszerűsítsd az oldalt a közösségi médiában és az iskolai eseményeken.
+Responsive Landing Page | ScrollReveal & Tiny Slider
+https://codepen.io/ecemgo/pen/GRzpEpB
 
-### 10. Karbantartás
-- **Rendszeres frissítések:** Frissítsd a tartalmat, és tartsd naprakészen az információkat.
-- **Visszajelzések gyűjtése:** Kérd ki a diákok és szülők véleményét az oldalról, és használd azokat a fejlesztéshez.
+Fly in new content
+https://codepen.io/chriscoyier/pen/ngpbKa
 
-Ezek a lépések segítenek egy modern és funkcionális iskola oldal létrehozásában. Ha bármilyen kérdésed van, szívesen segítek!
-=======
+Continuous scrolling background of sticky header
+https://codepen.io/dghez/details/wvQWpN
+
+Header Resize on Scroll Simple Page Layout
+https://codepen.io/lili2311/pen/Exgqag
+
+Single-Page Site Layout
+https://codepen.io/jacobchavezjr/pen/oNVgqo
+
+Simple and Responsive Menu (HTML5 and CSS3 only)
+https://codepen.io/erinesullivan/pen/VQjzmZ
+
+Stripe Like CSS Only Menu
+https://codepen.io/smpnjn/details/VwKXdmy
+
+Simple Responsive Timeline
+https://codepen.io/keithwyland/pen/wqNqvy
+
+Google Maps Custom Colors
+https://codepen.io/DarrellWilson/details/AjXNZq
+
+Welcome to The School of Life
+https://codepen.io/reallygoodemails/pen/QKyrVw
+
+CodeCamp Tribute Page
+https://codepen.io/parkyoung555/details/ORGjMV
+
+Splash Screen Animation
+https://codepen.io/hiteshsahu/details/MOgzej
+
+CSS Parallax Hero
+https://codepen.io/hexagoncircle/pen/OJyPygv
+
+Editorial design to CSS Grid. Author Page
+https://codepen.io/ricardpriet/pen/zRqzzW
+
+About Us Page
+https://codepen.io/yanhuidiamond/details/PbBmQB
+
+vue-simple-timeline
+https://codepen.io/isanbitoy/details/oMYMYV
+
+FCC2 Personal Web Page
+https://codepen.io/CRAKERSS/details/PmoGeX
+
+HTML only - Detail & Summary
+https://codepen.io/ananyaneogi/pen/QXgXmd
+
+Web School (sin frameworks)
+https://codepen.io/JyGProyectosWeb/pen/ezjExp
+
+Thinkful About Me
+https://codepen.io/brebory/pen/XWqNGZ
+
+FCC Projects - Personal Portfolio
+https://codepen.io/merraysy/pen/KzpwJG
+
+Wild Circus (Wild Code School)
+https://codepen.io/alphabetacoder/pen/eezYBK
+
+Dribbble Mockup - School of Fish
+https://codepen.io/mirandalwashburn/pen/ZEObVxQ
+
+Full Screen Image Landing Page (Pure CSS/HTML)
+https://codepen.io/geekidharsh/pen/NrQBBp
+
+Bootstrap Dropdown Menu - Extended
+https://codepen.io/atelierbram/pen/PoVNYY
+
+YarnOver : Home Section Layout
+https://codepen.io/Joruchan/pen/wZwepb
+
+School Web Template
+https://codepen.io/codersreign/pen/LYERBda
+
+#Codevember 9, Old Timey Film In 1 Div
+https://codepen.io/ddietle/pen/qqOwJW
