@@ -1,9 +1,0 @@
-
-YarnOver : Home Section Layout
-https://codepen.io/Joruchan/pen/wZwepb
-
-School Web Template
-https://codepen.io/codersreign/pen/LYERBda
-
-#Codevember 9, Old Timey Film In 1 Div
-https://codepen.io/ddietle/pen/qqOwJW
