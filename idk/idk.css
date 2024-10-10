@@ -378,6 +378,7 @@ nav li a:hover{
 }
  .card:nth-child(4):before {
 	 background-image: url(photos/golyak2024.jpeg);
+	 
 }
  .content {
 	 position: relative;
