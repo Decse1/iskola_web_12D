@@ -378,6 +378,7 @@ nav li a:hover{
 }
  .card:nth-child(4):before {
 	 background-image: url(photos/golyak2024.jpeg);
+	 
 }
  .content {
 	 position: relative;
@@ -454,6 +455,7 @@ nav li a:hover{
 	}
 }
  
+
 button#to-top {
 	position: fixed;
 	right: 20px;
@@ -476,3 +478,4 @@ button#to-top {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
 	background-color: #15A4FA;
   }
+
