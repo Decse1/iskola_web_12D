@@ -322,7 +322,7 @@ nav li a:hover{
 }
  @media (min-width: 800px) {
 	 .page-content {
-		 grid-template-columns: repeat(4, 1fr);
+		 grid-template-columns: repeat(3, 1fr);
 	}
 }
  .card {
@@ -455,3 +455,27 @@ nav li a:hover{
 	}
 }
  
+
+button#to-top {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border: solid 1px #fff;
+	outline: none;
+	color: #fff;
+	box-shadow: 0 0.5px 1px rgba(0,0,0,0.3);
+	background-color: rgba(72,186,255,0.5);
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	padding: 0;
+	cursor: pointer;
+	text-shadow: 0 0.5px 1px rgba(0,0,0,0.3);
+	font-size: 20px;
+  }
+  
+  button#to-top:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	background-color: #15A4FA;
+  }
+

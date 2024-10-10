@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="fgal.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="idk.js"></script>
+
+  </head>
+  <body> 
+    <header>
+    <nav class="navbar navbar-expand-lg data-bs" style="background-color: rgb(2, 2, 61); color: white;" ><!--theme="" ??? hátér-->
+      <div class="container-fluid">
+        <!--Navbar-->
+          <a class="navbar-brand" href="index.html"><img src="photos/kép_2024-10-09_193501398-removebg-preview.png" style="height: 60px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav col">
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link active" aria-current="page" href="#">Elérhetőségek</a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="munk.html">Munkatársaink</a>
+              </li>
+              <li class="nav-item dropdown"></li>
+                <a style="color: white;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dokumentumok
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a style="color: rgb(1, 1, 1);" class="dropdown-item" href="#">Közzételi lista</a></li>
+                  <li><a style="color:  rgb(1, 1, 1);" class="dropdown-item" href="#">Letölthető dokumentumok</a></li>
+                  <li><a style="color:  rgb(1, 1, 1);" class="dropdown-item" href="#">Közzöségi Szolgálat</a></li>
+                  <li><a style="color:  rgb(1, 1, 1);" class="dropdown-item" href="#">Éretségi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="gyer.html">
+                  Gyermekvédelem
+                </a>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="index.html">
+                  Büszkeségeink
+                </a>
+              </li>
+              <li class="nav-item dropdown"></li>
+                <a style="color: white;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Galéria
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a style="color:  rgb(1, 1, 1);" class="dropdown-item" href="fGaleria.html">Fényképek</a></li>
+                  <li><a style="color:  rgb(1, 1, 1);" class="dropdown-item" href="vGaleria.html">Videók</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">
+                  Adatkezelési tájékoztató
+                </a>
+              </li> 
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link" href="#">
+                  Felnőttképzés
+                </a>
+              </li> 
+            </ul>
+    </nav>
+</header>
+<div style="width: 1600px; margin-left: 7%; margin-top: 20px ;">
+    <section class="grid--container">
+
+	<!-- 1 -->
+    <div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">				
+				<a href="gyolyavato.html" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>				
+			</div>
+			
+			<div class="content--container">
+				<div class="title--container">
+					<a class="title--text" href="gyolyavato.html">Gólyaavató</a>
+				</div>
+				
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">Gólyaavató</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i> 65 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 2 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="nbar.html" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="nbar.html">Nyelvi Koktélbár</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Nyelvi</a></li>
+						<li><a href="#" class="tag">Koktélbár</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">At Tempo</a></li>
+						<li><a href="#" class="tag">Distincto a Tet</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i> 39 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 3 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="kf.html" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="kf.html">Kollégium fotószakkör</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Kollégium</a></li>
+						<li><a href="#" class="tag">fotószakkör</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">Lista e Fortna</a></li>
+						<li><a href="#" class="tag">Vuisi</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i> 6 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 4 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">Merceds gyárlátogatás</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Merceds</a></li>
+						<li><a href="#" class="tag">gyárlátogatás</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">Hesus</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+			</div>
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i> 3 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+	
+	<!-- 5 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">Veni Sancte</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Veni Sancte</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">Volutpat</a></li>
+						<li><a href="#" class="tag">Orta</a></li>
+						<li><a href="#" class="tag">Turpis Egestas</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i> 28 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 6 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">Évnyitó</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Évnyitó</a></li>
+						<li><a href="#" class="tag">2024</a></li>						
+						<li><a href="#" class="tag">Szeptember</a></li>
+						<li><a href="#" class="tag">Urna</a></li>
+						<li><a href="#" class="tag">Praesent Semper</a></li>
+						<li><a href="#" class="tag">Morbi Leo</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>13 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+	<!-- 7 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">37. Gépész napok
+                    </a>
+				</div>
+				
+				<div class="tags--overflow-container">
+					<ul class="tags--container">					
+						<li><a href="#" class="tag">Gépész napok</a></li>				
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Április</a></li>
+						<li><a href="#" class="tag">Turpis Egestas</a></li>						
+						<li><a href="#" class="tag">Elementi</a></li>
+						<li><a href="#" class="tag">Urna</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>74 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+	
+	<!-- 8 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">Újabb fantasztikus siker!!!</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Verseny</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Április</a></li>
+						<li><a href="#" class="tag">Libero</a></li>
+						<li><a href="#" class="tag">Facere</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>3 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+	
+	<!-- 9 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">Megyei Atlétika Diákolimpia Döntő</a>
+				</div>
+				
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">Diákolimpia</a></li>
+						<li><a href="#" class="tag">Döntő</a></li>
+						<li><a href="#" class="tag">Atlétika</a></li>
+						<li><a href="#" class="tag">Megyei Atlétika</a></li>
+						<li><a href="#" class="tag">2024</a></li>
+                        <li><a href="#" class="tag">Április</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>3 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+	
+	<!-- 10 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">MOZAIK Országos Tanulmányi Verseny</a>
+				</div>
+				
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Április</a></li>
+						<li><a href="#" class="tag">Verseny</a></li>
+						<li><a href="#" class="tag">MOZAIK</a></li>
+						<li><a href="#" class="tag">Tanulmányi Verseny</a></li>
+						<li><a href="#" class="tag">Országos</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>3 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 11 -->
+	<div class="grid--cell">
+		<article class="grid--item">
+			
+			<div class="preview--container">
+				
+				<a href="#" class="preview-image--container">
+					<div class="preview-image"></div>
+				</a>
+				
+				<div class="meta--container">
+					<a href="#" class="issue">Issue XX</a>
+					<a href="#" class="page">Page YY</a>
+				</div>
+				
+			</div>
+			
+			<div class="content--container">
+
+				<div class="title--container">
+					<a class="title--text" href="#">
+                        Bács-Kiskun vármegyei Szakács Jenő fizikaverseny</a>
+				</div>
+
+				<div class="tags--overflow-container">
+					<ul class="tags--container">
+						<li><a href="#" class="tag">2024</a></li>
+						<li><a href="#" class="tag">Április</a></li>
+						<li><a href="#" class="tag">Bács-Kiskun vármegyei</a></li>
+						<li><a href="#" class="tag">fizikaverseny</a></li>
+						<li><a href="#" class="tag">Szakács Jenő fizikaverseny</a></li>
+						<li><a href="#" class="tag ellipsis"><i class="far fa-ellipsis-h"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="hover--options">
+					
+					<a href="#" class="series button">
+						<span class="icon-title"><i class="fad fa-books"></i>3 kép</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>		
+					</a>
+					
+					<a href="#" class="latest button">
+						<span class="icon-title"><i class="far fa-image"></i> Legújabb</span>
+						<span class="new-tab"><i class="fas fa-arrow-circle-right"></i></span>	
+					</a>
+					
+					<a href="#" class="follow button"><i class="fas fa-plus"></i></a>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+		</article>
+	</div>
+
+</section>
+</div>
+
+	
+
+            
+
+          <footer class="site-footer" style="margin-top: 100px;">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                      <h6>About</h6>
+                      <p class="text-justify"><i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+                    </div>
+
+                    <div class="col-xs-6 col-md-3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2735.8633644277324!2d19.836841176060254!3d46.70843024956803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743ebbc735ee1d5%3A0xd9ad7774323565eb!2zS2lza3VuZsOpbGVneWjDoXppIFN6ZW50IEJlbmVkZWsgUEcgS8OpdCBUYW7DrXTDoXNpIE55ZWx2xbEgVGVjaG5pa3VtIMOpcyBLb2xsw6lnaXVt!5e0!3m2!1shu!2shu!4v1727810866264!5m2!1shu!2shu" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+                  <hr>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-8 col-sm-6 col-xs-12">
+                      <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+                  <a href="#">Scanfcode</a>.
+                      </p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                      <ul class="social-icons">
+                        <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100032786691974"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="instagram" href="https://www.instagram.com/pg_kiskunfelegyhaza/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/channel/UCsHOTZXcaLiIPJ_sXhJW0zA"><i class="fa fa-youtube"></i></a></li>   
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
