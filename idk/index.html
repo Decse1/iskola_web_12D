@@ -183,11 +183,6 @@
                             <h2 class="title" style="color: white;">Desert Destinations</h2>
                             <p class="copy" style="color: white;">It's the desert you've always dreamed of</p><button class="btn" style="color: white;">Book Now</button></div>
                     </div>
-                    <div class="card">
-                        <div class="content">
-                            <h2 class="title"style="color: white;">Explore The Galaxy</h2>
-                            <p class="copy" style="color: white;">Seriously, straight up, just blast off into outer space today</p><button class="btn" style="color: white;">Book Now</button></div>
-                    </div>
                 </main>
               </section>
               
@@ -253,7 +248,26 @@
                 </div>
               </div>
             </div>
-            
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 bg-dark" style=" height: 300px; text-align: center; padding-top: 60px;"  >
+                    <p style="color: white;" >
+                      freestar
+
+                      Հայերեն Shqip ‫العربية Български Català 中文简体 Hrvatski Česky Dansk Nederlands English Eesti Filipino Suomi Français ქართული Deutsch Ελληνικά ‫עברית हिन्दी Magyar Indonesia Italiano Latviski Lietuviškai македонски Melayu Norsk Polski Português Româna Pyccкий Српски Slovenčina Slovenščina Español Svenska ไทย Türkçe Українська Tiếng Việt
+                      Lorem Ipsum
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                      
+                    </p>
+
+                </div>
+                <div class="col-md-6  ">
+                  <div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
             <br><br><br><br><br><br>
             
             <div>
@@ -263,7 +277,56 @@
             <input type="checkbox" id="toggle-btn" /><label class="toggle-btn" for="toggle-btn">click!</label>
             <div class="dark-mode-mask"></div>-->
             
-
+            <style> 
+            #myBtn {
+              position: fixed;
+              right: 20px;
+              bottom: 20px;
+              border: solid 1px #fff;
+              outline: none;
+              color: #fff;
+              box-shadow: 0 0.5px 1px rgba(0,0,0,0.3);
+              background-color: rgba(72,186,255,0.5);
+              width: 40px;
+              height: 40px;
+              border-radius: 100%;
+              padding: 0;
+              cursor: pointer;
+              text-shadow: 0 0.5px 1px rgba(0,0,0,0.3);
+              font-size: 20px;
+            }
+            
+            #myBtn:hover {
+              box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+              background-color: #15A4FA;
+            }
+            </style>
+            </style>
+            </head>
+            <body>
+            
+            <button id="myBtn" onclick="topFunction()"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+            <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
           <footer class="site-footer" style="margin-top: 100px;">
                 <div class="container">
                   <div class="row">
